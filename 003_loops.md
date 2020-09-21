@@ -22,4 +22,4 @@ for count in 1..565 {
 </td></tr>
 </tbody>
 </table>
-
+Loops are even easier as in Python! Rust uses a modern range syntax with start . . stop

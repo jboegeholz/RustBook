@@ -1,5 +1,6 @@
 ## Traits
 
+Traits are like protocols
 ```
 trait Animal {
     fn name(&amp;self) -&gt; &amp;'static str;
