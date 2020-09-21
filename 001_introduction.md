@@ -41,6 +41,8 @@ if __name__ == '__main__':
 </pre>
 (Which is a good practice to use, but not mandatory)
 
+Another thing you might notice is the return of the curly brackets and semicolons :-)
+
 ## Print functions
 The println! is a so called macro
 
