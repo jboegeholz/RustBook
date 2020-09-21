@@ -1,14 +1,14 @@
+## Interfacing Rust from Python
+
 lib.rs
 <pre>
 extern crate libc;
-
-/// Use this to load the standard library interface to threading.
-use std::thread;
 
 #[no_mangle]
 pub extern fn double(x: i32) -> i32{
     x * 2
 }
+
 </pre>
 
 Cargo.toml
