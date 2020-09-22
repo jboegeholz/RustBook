@@ -1,7 +1,7 @@
 ## Functions
 
 <pre>
-fn double(x: i32) -> i32{
+fn double_grey_hairs(grey_hairs: i32) -> i32{
     x * 2
 }
 </pre>
