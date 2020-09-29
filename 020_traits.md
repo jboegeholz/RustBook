@@ -1,5 +1,18 @@
 ## Traits
 
+struct Parent {
+    function: &'static str,
+    parent_name: &'static str,
+}
+
+impl Display for Parent{
+    fn fmt (&self, fmt: &mut std::fmt::Formatter) -> std::result::Result<(), std::fmt::Error> {
+        write!(fmt, "I'm your {} Luke, you can call me {}", self.function, self.parent_name)
+    }
+}
+
+
+
 Traits are like protocols
 ```
 trait Animal {
